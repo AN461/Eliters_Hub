@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#862971f5,#03080e);
+    
+}
+
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow:0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+input{
+    border: none;
+    width: 100%;
+    margin: 10px;
+    padding: 40px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(125, 121, 122, 0.29);
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+
+}
+input::placeholder{
+    color: white;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    color:white;
+    box-shadow: 0px 3px 15px rgba(125, 121, 122, 0.584);
+    cursor: pointer;
+}

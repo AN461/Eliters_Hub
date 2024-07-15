@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- https://storyset.com/illustration/calculator/amico#utm_source=freepik&utm_medium=referall&utm_campaign=storiesdetail&utm_content=edit-button&utm_term=edit -->
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="mainStyle.css">
+    </head>
+    <body>
+        
+        <div class="bgcontainer">
+            <nav class="navbar navbar-expand-lg navbar-light pl-4 nav-container fixed-top">
+                <a class="navbar-brand" href="main.html" id="Eliter">Eliters Hub</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ml-auto pr-3">
+                    <a class="nav-item nav-link active" href="main.html" id="Home">Home</a>
+                    <a class="nav-item nav-link" href="#" id="More">More Games</a>
+                    <a class="nav-item nav-link" href="#" id="About">About Us</a>
+                    <a class="nav-item nav-link disabled" href="#" id="Contact">Contact</a>
+                  </div>
+                </div>
+            </nav>
+            <div class="box todo-box">
+                <div class="picture">
+                    <img src="https://res.cloudinary.com/dt4w3q95b/image/upload/v1719853730/todo-fin_zarz9l.png" alt="" class="pic">
+                </div>
+                <div class="application">
+                    <div class="application-inner">
+                        <h1 class="application-head">Task Manager</h1>
+                        <p class="application-info">You can create checklist and delete after completion of that task</p>
+                        <div class="btn-cont">
+                            <button onclick="openTodo()" class="open-btn">OPEN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box calculator-box">
+                <div class="application">
+                    <div class="application-inner">
+                        <h1 class="application-head">Calculator</h1>
+                        <p class="application-info">You can create checklist and delete after completion of that task</p>
+                        <div class="btn-cont">
+                            <button class="open-btn" onclick="calculatorOpen()">OPEN</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="picture">
+                    <img src="https://res.cloudinary.com/dt4w3q95b/image/upload/v1719854815/Calculator-amico_a58lpg.png" alt="" class="pic">
+                </div>
+                
+            </div>
+            <div class="box bomb-defuse-box">
+                <div class="picture">
+                    <img src="https://res.cloudinary.com/dt4w3q95b/image/upload/v1719857716/bomb_klhim1.png" alt="" class="pic">
+                </div>
+                <div class="application">
+                    <div class="application-inner">
+                        <h1 class="application-head">Bomb Defuse Game</h1>
+                        <p class="application-info">You can create checklist and delete after completion of that task</p>
+                        <div class="btn-cont">
+                            <button class="open-btn" onclick="BombGameOpen()">OPEN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box speed-typing-box">
+                <div class="application">
+                    <div class="application-inner">
+                        <h1 class="application-head">Speed Typing Test</h1>
+                        <p class="application-info">You can create checklist and delete after completion of that task</p>
+                        <div class="btn-cont">
+                            <button class="open-btn">OPEN</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="picture">
+                    <img src="https://res.cloudinary.com/dt4w3q95b/image/upload/v1719858435/typing_mwympm.png" alt="" class="pic">
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

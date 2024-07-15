@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+.timer-container {
+  background-image: url("https://res.cloudinary.com/dt4w3q95b/image/upload/v1720429242/town_e6lkr9.png");
+  background-color: rgb(108, 192, 231);
+  min-height: 100vh;
+  min-width: 100vw;
+  max-height: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+.defuser-container{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+.Blasting{
+  background-image: url("https://res.cloudinary.com/dt4w3q95b/image/upload/v1720460003/blasting_gsbzsa.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.BombSetupNone{
+  display: none;
+}
+.DoorNone {
+  display: none;
+}
+
+.BoyNone {
+  display: none;
+}
+.thank-you{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+  align-self: flex-start;
+}
+.thank-text{
+  color: aliceblue;
+  font-family: "Roboto";
+
+}
+.celebrate{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://res.cloudinary.com/dt4w3q95b/image/upload/v1720461193/Celebration_fwmhbo.png"),
+                    linear-gradient(to right,rgb(174, 229, 239),rgba(38, 171, 228, 0.555));
+  background-size: contain;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.boy-image{
+  height: 400px;
+  width: 300px;
+  
+}
+.door{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 300px;
+  width: 200px;
+  box-shadow: 12px 8px 8px rgba(228, 228, 241, 0.187);
+  padding-right: 10px;
+}
+.conversation{
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25%;
+  align-items: flex-end;
+  box-sizing: border-box;
+
+}
+.msg{
+  max-height: 300px;
+  max-width: 300px;
+  align-self: center;
+  box-sizing: border-box;
+}
+.boy-instruct{
+  height: 250px;
+  
+} 
+.instruct-container{
+  display: flex;
+  flex-direction: column;
+}
+.msg-text{
+  min-height: 200px;
+  width: 400px;
+  max-width: 400px;
+}
+.para{
+  box-sizing: border-box;
+}
+.help-btn{
+
+  display: flex;
+  flex-direction: row;
+  margin-left: 25%;
+  box-sizing: border-box;
+}
+.timer-display {
+  color: white;
+  font-size: 50px;
+}
+
+.user-input {
+  text-align: center;
+  border-width: 0px;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.bomb-image {
+  width: 300px;
+  height: 300px;
+}

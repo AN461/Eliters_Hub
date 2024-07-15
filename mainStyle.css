@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body{
+    margin: 0px;
+    background-color: #f9f9f9;
+}
+.nav-container{
+    background-image: linear-gradient(to right,rgb(2, 13, 74),rgba(59, 34, 1, 0.938),rgb(58, 58, 84));
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    height: 70px;
+    box-sizing: border-box;
+}
+#Eliter{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10%;
+    padding: 8px;
+    border-radius: 20px;
+    
+}
+#Home{
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 20px;
+}
+#Home:hover{
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(239, 242, 244, 0.219),
+    -1px -1px 1px rgb(229, 229, 235);
+
+}
+#More{
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+#More:hover{
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(239, 242, 244, 0.219),
+    -1px -1px 1px rgb(229, 229, 235);
+
+}
+#About{
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+#About:hover{
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(239, 242, 244, 0.219),
+    -1px -1px 1px rgb(229, 229, 235);
+
+}
+#Contact{
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+#Contact:hover{
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(239, 242, 244, 0.219),
+    -1px -1px 1px rgb(229, 229, 235);
+
+}
+#Eliter:hover{
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(239, 242, 244, 0.219),
+    -1px -1px 1px rgb(229, 229, 235);
+
+}
+
+.bgcontainer{
+    margin-top: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right,rgba(218, 235, 236, 0.361),rgba(240, 237, 221, 0.205));
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(to right,#bccde830,#a5c1f04b);
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+   
+}
+.application-inner:hover{
+    box-shadow: 12px 12px 12px rgba(113, 113, 229, 0.279) inset,
+    -15px -10px 10px rgba(205, 107, 27, 0.235) inset;
+}
+.picture{
+    
+    box-sizing: border-box;
+}
+.pic{
+    height: 300px;
+    width:300px;
+}
+.application{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.application-inner{
+    background-image: linear-gradient(to right,#5348ed2d,#f4a98780);
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow:  0 4px 8px 0 rgba(93, 107, 231, 0.084) inset, 0 6px 20px 0 rgba(53, 34, 201, 0.146) inset,-10px -10px 10px rgba(216, 114, 11, 0.107) inset;
+    border-radius: 10px;
+
+}
+.open-btn{
+    color: white;
+    background-color: rgb(217, 101, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-width: 0px;
+    border-radius: 15px;
+}
+.application-head{
+    background-image:linear-gradient(to right,rgba(78, 67, 170, 0.126),rgba(35, 76, 207, 0.311));
+    padding: 15px;
+    color:rgb(7, 12, 69);
+    font-family: "Roboto";
+    font-weight: 800px;
+    text-align: center;
+    border-radius: 5px;
+}
+.application-info{
+    color: rgb(1, 7, 36);
+    padding: 15px;
+    flex-wrap: wrap;
+    font-family: "Roboto";
+}
+.btn-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
